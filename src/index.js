@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Server Running successfully');
+    res.send('Goutham pipeline succcess');
 });
 
 const PORT = 3000;
